@@ -12,6 +12,8 @@ const FavouriteFood = myFavfood.indexOf("Beef");
 console.log(FavouriteFood);
 
 myFavfood.push("Apple", "Pine Apple", "Orange");
-myFavfood.includes("Beef", "ABC");
+myFavfood.includes("Beef");
 
 console.log(myFavfood.includes("Beef"));
+
+const 
