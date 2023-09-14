@@ -28,13 +28,13 @@ const data = [
   },
 ];
 
-data.forEach(({ name, age, job }, idx) => {
+/* data.forEach(({ name, age, job }, idx) => {
   console.log(
     `Person ${
       idx + 1
     } \n Name ${name} \n Age ${age} \n job ${job} \n -----------`
   );
-});
+}); */
 
 data.forEach((person, idx) => {
   console.log("Person", idx + 1);
